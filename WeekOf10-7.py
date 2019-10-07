@@ -13,10 +13,13 @@ print(y)
 print("I said: %r" % x)
 print("I also said: '%s'." % y)
 
-
+# The line below is defining the term hilarious, which is false
 hilarious = False
+# the line below is defining what the term joke_evaluation will print when it is printed
 joke_evaluation = "Isn't that joke so funny!? %r"
+# the line below prints the defined terms from above, stating that the joke was not funny
 print(joke_evaluation % hilarious)
+
 
 w = "This is the left side of..."
 e = "A string with a right side."
