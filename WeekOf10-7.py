@@ -9,7 +9,7 @@ y = "Those  who %s and those who %s" % (binary, doNot)
 print(x)
 print(y)
 
-
+# The two lines below add text before both x and y
 print("I said: %r" % x)
 print("I also said: '%s'." % y)
 
