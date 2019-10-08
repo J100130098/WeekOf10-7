@@ -29,11 +29,14 @@ print(w + e)
 
 # 10-8 more stuff
 
+# the 4 lines below print the text in parentheses when run
 print("Mary had a little lamb.")
 print("it's fleece was white as %s." % 'snow')
 print("And everywhere that Mary went.")
 print("." * 10)
+# the line above is multiplying the text 10 times to make ".........."
 
+# the 12 lines below give the "ends" a meaning
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -47,9 +50,11 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
+# the line below prints the "ends" all together, spelling out CheeseBurger
 print(end1 + end2 + end3 + end4 + end5 + end6 + end7 + end8 + end9 + end10 + end11 + end12)
 
 # More Formatting
+# the 5 lines below first give the term "formatter" a value, then print the whatever values you want to be associated with formatter.
 formatter = "%r %r %r %r"
 print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))
@@ -57,3 +62,4 @@ print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # why use %r instead of %s?
+# while %r and %s appear to be identical, %r allows you to change the value that it is associated with immediately after it is given a definition, while %s will not change what it represents.
