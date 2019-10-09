@@ -99,10 +99,16 @@ print(taskCat)
 # escape Seq                What does it do
 # \\
 # \\ adds a single \ to a line of printed code
-print(I \\ am \\ a slash)
+print("I \\ am \\ a slash")
 # \*
+# \* adds a * to where ever it is printed
+print("\* this does this")
 # \"
+# \" adds " to where it is typed when printed
+print("\"This does something incredible\"")
 # \a
+
+print("\a is pretty cool")
 # \b
 # \f
 # \n
@@ -114,3 +120,10 @@ print(I \\ am \\ a slash)
 # \v
 # \ooo
 # \xhh
+
+# what's the following Code do?
+#   while True:
+#       for i in ["\","-","|","\\","|"]:
+#           print("%s\r" % i, end='')
+
+# Can you replace """ with '''?
