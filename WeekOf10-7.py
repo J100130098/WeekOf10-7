@@ -63,3 +63,54 @@ print(formatter % (formatter, formatter, formatter, formatter))
 
 # why use %r instead of %s?
 # while %r and %s appear to be identical, %r allows you to change the value that it is associated with immediately after it is given a definition, while %s will not change what it represents.
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print("Here are the days: ", days)
+print("Here are the months: ", months)
+
+print("""
+There's something going on here.
+with the three double quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+
+# what if I didn't like Jan being listed on the line with the rest of the
+# text and away from the other months? How can I fix that?
+
+# more escaping
+
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non a line."
+backslashCat = "I'm \\ a \\ Cat"
+taskCat = """
+I'll make a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(taskCat)
+
+# escape Seq                What does it do
+# \\
+# \\ adds a single \ to a line of printed code
+print(I \\ am \\ a slash)
+# \*
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxx
+# \v
+# \ooo
+# \xhh
