@@ -107,9 +107,11 @@ print("\* this does this")
 # \" adds " to where it is typed when printed
 print("\"This does something incredible\"")
 # \a
-
+# \a adds a Bullet to where it is typed in a print line
 print("\a is pretty cool")
 # \b
+
+
 # \f
 # \n
 # \N{name}
