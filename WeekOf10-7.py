@@ -110,12 +110,19 @@ print("\"This does something incredible\"")
 # \a adds a Bullet to where it is typed in a print line
 print("\a is pretty cool")
 # \b
-
-#
+# \b creates a backspace whenever it is printed
+print("\b is not\bas cool as \a")
 # \f
+# \f seems to do the same thing as \a
+print("I never\f want to use \f")
 # \n
+# \n forces all that is printed to be printed on the next line
+print("never gonna \n give you up!")
 # \N{name}
+# \N{name} allows you to print unicode characters from python's unicode database.
+print (u"\N{SOLIDUS} \N{BLACK SPADE SUIT}")
 # \r
+
 # \t
 # \uxxxx
 # \Uxxxxxxx
@@ -129,3 +136,8 @@ print("\a is pretty cool")
 #           print("%s\r" % i, end='')
 
 # Can you replace """ with '''?
+
+age = input("How old are you? ")
+height = input("How tall are you? ")
+
+print("You are %r tall and %r old" % (height, age))
