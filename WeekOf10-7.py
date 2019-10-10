@@ -122,8 +122,11 @@ print("never gonna \n give you up!")
 # \N{name} allows you to print unicode characters from python's unicode database.
 print (u"\N{SOLIDUS} \N{BLACK SPADE SUIT}")
 # \r
-
+# \r creates a carriage return in your print.
+print("Apples\rOranges")
 # \t
+# \t creates a tab in your print
+print("\t Why does \t exist? ")
 # \uxxxx
 # \Uxxxxxxx
 # \v
