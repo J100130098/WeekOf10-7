@@ -128,6 +128,8 @@ print("Apples\rOranges")
 # \t creates a tab in your print
 print("\t Why does \t exist? ")
 # \uxxxx
+# \uxxxx
+print(" u'\\🐍\\u032f\\u0361\\u0e4f' will do this cool thing")
 # \Uxxxxxxx
 # \v
 # \ooo
