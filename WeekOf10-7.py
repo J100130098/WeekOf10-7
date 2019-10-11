@@ -128,11 +128,11 @@ print("Apples\rOranges")
 # \t creates a tab in your print
 print("\t Why does \t exist? ")
 # \uxxxx
-# \uxxxx prints a character with the corresponding unicode value
+# \uxxxx prints a character with the corresponding 16 bit unicode value
 print("\u0041 this is interesting ")
 # \Uxxxxxxx
-# \Uxxxxxxx
-print("\U03h4877")
+# \Uxxxxxxx prints a character with the corresponding 32 bit unicode value
+print('\U01010101')
 # \v
 # \v creates a vertical tab
 print("why would I use \v ever?")
