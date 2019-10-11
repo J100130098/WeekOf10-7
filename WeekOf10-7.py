@@ -132,7 +132,7 @@ print("\t Why does \t exist? ")
 print("\u0041 this is interesting ")
 # \Uxxxxxxx
 # \Uxxxxxxx prints a character with the corresponding 32 bit unicode value
-print('\U01010101')
+print('\U01010101 is nice')
 # \v
 # \v creates a vertical tab
 print("why would I use \v ever?")
@@ -152,5 +152,7 @@ print("\x45 this really rocks")
 print('this may work \n fresh line')
 age = input("How old are you? ")
 height = input("How tall are you? ")
-
+# the input command allows you to add text after the code is ran.
 print("You are %r tall and %r old" % (height, age))
+
+
