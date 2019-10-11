@@ -128,20 +128,28 @@ print("Apples\rOranges")
 # \t creates a tab in your print
 print("\t Why does \t exist? ")
 # \uxxxx
-# \uxxxx
-print(" u'\\🐍\\u032f\\u0361\\u0e4f' will do this cool thing")
+# \uxxxx prints a character with the corresponding unicode value
+print("\u0041 this is interesting ")
 # \Uxxxxxxx
+# \Uxxxxxxx
+print("\U03h4877")
 # \v
-# \ooo
+# \v creates a vertical tab
+print("why would I use \v ever?")
+# \000
+# \000 prints a character with the corresponding octal value
+print("this \101 is slightly interesting")
 # \xhh
-
+# \xhh prints a character with a corresponding hexadecimal value
+print("\x45 this really rocks")
 # what's the following Code do?
-#   while True:
-#       for i in ["\","-","|","\\","|"]:
-#           print("%s\r" % i, end='')
+#while True:
+#    for i in ["\","-","|","\\","|"]:
+#print("%s\r" % i, end='with this'):
 
 # Can you replace """ with '''?
-
+# yes you can replace "" with ''
+print('this may work \n fresh line')
 age = input("How old are you? ")
 height = input("How tall are you? ")
 
