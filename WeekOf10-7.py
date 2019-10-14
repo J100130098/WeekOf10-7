@@ -155,4 +155,7 @@ height = input("How tall are you? ")
 # the input command allows you to add text after the code is ran.
 print("You are %r tall and %r old" % (height, age))
 
+numberOfPlants = input("How Many plants are there?")
+Stonks = input("How many stonks are there?")
+print("there are %r stonks and %r plants" % (Stonks, numberOfPlants))
 
